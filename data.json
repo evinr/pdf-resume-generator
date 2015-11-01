@@ -1,0 +1,228 @@
+{
+	"name": "Evin Revello",
+	"phone":"530 289 6898",
+	"email":"Evin@EvinRevello.com",
+	"location":"Sacramento-area, CA",
+	"skills":[
+		{
+			"general": "Software",
+			"exact": [
+				{
+					"name":	"Javascript",
+					"level": 	70,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				},
+				{
+					"name":	"HTML",
+					"level": 	60,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				},
+				{
+					"name":	"CSS",
+					"level": 	60,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				},
+				{
+					"name":	"Python",
+					"level": 	60,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				},
+				{
+					"name":	"SQL",
+					"level": 	60,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				},
+				{
+					"name":	"Git",
+					"level": 	60,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				},
+				{
+					"name":	"Regular Expressions",
+					"level": 	90,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				},
+				{
+					"name":	"Amazon AWS",
+					"level": 	65,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				},
+				{
+					"name":	"Comp Sci Fundamentals",
+					"level": 	60,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				}
+			]
+
+		},
+		{
+			"general": "Hardware",
+			"exact": [
+				{
+					"name":	"Embeded Systems",
+					"level": 	81,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				},
+				{
+					"name":	"Telco Infrastructure",
+					"level": 	76,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				},
+				{
+					"name":	"Soldering/Fabrication",
+					"level": 	87,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				},
+				{
+					"name":	"Serial Communications",
+					"level": 	80,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				}
+			]
+
+		},
+		{
+			"general": "Docs",
+			"exact": [
+				{
+					"name":	"Technical Writing",
+					"level": 	77,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				},
+				{
+					"name":	"Visual explanations",
+					"level": 	85,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				},
+				{
+					"name":	"Copy Writing",
+					"level": 	73,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				},
+				{
+					"name":	"BRD/FSD Writing",
+					"level": 	67,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				}
+			]
+
+		},
+		{
+			"general": "Design",
+			"exact": [
+				{
+					"name":	"User Interfaces",
+					"level": 	85,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				},
+				{
+					"name":	"User Experiance",
+					"level": 	90,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				},
+				{
+					"name":	"Graphic Design",
+					"level": 	80,
+					"explanation": "explain how what I know is relevant",
+					"examples": "bestExampleOfThis.com"
+				}
+			]
+
+		}
+
+	],
+	"jobs":[
+		{
+			"company": 	"Stone Cobra",
+			"logo":		"./assets/logos/sample.png",
+			"url":		"http://www.stonecobra.com/",
+			"position": 	"Engineer",
+			"start":		"2015-03-26",
+			"end":		"Present",
+			"description":"JavaScript Ninja using the weapons of HTML/CSS/JS to slice through the presentation tier for high traffic, consumer facing applications while thinking about site speed, user experience, product strategy, and improvements to the code. Battling large JavaScript applications with deep knowledge of casting browser assets spells to vanquish slow site speeds, AJAX bottlenecks, and sloppy stylings. Vigilant about the latest design and development trends from tablet, mobile, HTML5, CSS3, JavaScript evolution, responsive design, accessibility, site performance, progressive enhancement, semantic markup and cross-browser development."
+		},
+		{
+			"company": 	"ECaTS",
+			"logo":		"./assets/logos/sample.png",
+			"url":		"http://www.ecats911.com/",
+			"position": 	"Jr Developer/Designer",
+			"start":		"2013-09-07",
+			"end":		"2014-10-24",
+			"description":"Wrangling 911 lookup data from unstructured to structured data by writing complex regular expressions. Writing DML SQL scripts to deploy system configurations. Manually syncing data and configurations from production to development environments using the BCP-utility of SQL Server and Redgate SQL Data (Compare). Assessing data to measure accuracy, integrity, completeness, usefulness, and freshness using C#, Python, and SQL Server using subject matter expertise (SME) of telco infrastructure, specifically the routing of 911 calls. "
+		},
+		{
+			"company": 	"Mesotech International",
+			"logo":		"./assets/logos/sample.png",
+			"url":		"http://mesotech.com/",
+			"position": 	"Technical Writer",
+			"start":		"2012-10-22",
+			"end":		"2013-05-07",
+			"description":"Wrote and edited user-facing documentation using Microsoft Word and Powerpoint in accordance with DoD style guides and preferences. Photographed products using a lean-lightbox techniques and edited in Adobe Photoshop to obscure proprietary implements. Interfaced with engineers to achieve factually accurate documentation. Created HTML5-compliant computer based training using Adobe Captivate. Performed quality assurance of hardware and software products, with a focus on consistent vernacular and system labeling.   "
+		},
+		{
+			"company": 	"Self Employed",
+			"logo":		"./assets/logos/sample.png",
+			"url":		"http://evinrevello.com/",
+			"position": 	"Freelancer",
+			"start":		"2009-06-15",
+			"end":		"2012-08-23",
+			"description":"Graphic design accomplished using open-source tools such as Gimp, Inkscape, and Scribed. Creation and modification of user interface elements using HTML, CSS, and JavaScript. Dynamic web sites launched using the Wordpress CMS, including configurations and tweaks to the code-base. Performing routine maintenance on sites and applications. Crafting modern web experiences for clients which included documentation, visuals, and hands-on-training. Reverse engineered functional requirements of serial communications command set of a electropherogram for a biotech startup."
+		}
+	],
+	"education":[
+		{
+			"school": "Sierra College",
+			"logo":	"./assets/logos/sample.png",
+			"url":	"http://www.sierracollege.edu/",
+			"degrees":[
+				{
+					"name": "Computer Science",
+					"accomplishments": "describe what was learned through getting this briefly",
+					"date":	"2011"
+				},
+				{
+					"name": "Mechatronics",
+					"accomplishments": "describe what was learned through getting this briefly",
+					"date":	"2011"
+				}
+			]
+		}
+	],
+	"testimonials":
+	[
+		{
+			"name": 		"Nathan Fry",
+			"relation": 	"Engineering Peer",
+			"quote":		"loris ipsum"
+		},
+		{
+			"name": 		"Vadym Maly",
+			"relation": 	"Coworker",
+			"quote":		"loris ipsum"
+		},
+		{
+			"name": 		"Guy McGuyerson",
+			"relation": 	"Former Boss",
+			"quote":		"loris ipsum"
+		}
+	]
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Site to 8.5 by 11 PDF</title>
+
+<style>
+body {
+    background-color: darkslategray;
+}
+.content {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+    height: 11in;
+    width: 8.5in;
+    background-color:white;
+}  
+
+.conent:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.name, .testimonials{
+    width: 66%;
+    margin: 0;
+    float: left;
+}
+
+.contact, .education{
+    width:33%;
+    float: left;
+}
+
+.name-contact {
+    height:10%;
+}
+
+.skills {
+    height:30%;
+}
+
+.employment {
+    height:45%;
+}
+.testimonials-education {
+    height: 15%;
+}
+
+.vertical-label {
+    transform: rotate(-45deg);
+    width:5%;
+    margin-bottom: 5%;
+}
+
+.skills-line {
+    border: 1px dashed darkslategrey;
+    width:95%;
+    float:right;
+    margin-top:-50px;
+}
+
+</style>
+
+</head>
+<body>
+<form id="form">
+    <h1>Click the button for your PDF</h1>
+    <button type="button" onclick="loadData()">Get Your PDF</button>
+</form>
+
+<div class='content'>
+    <div class='name-contact'>   
+        <h1 class='name'>Your Name</h1>
+        <div class='contact'>
+            <p class='email'>email@example.com</p>
+            <p class='phone'>email@example.com</p>
+            <p class='location'>email@example.com</p>
+        </div>
+    </div>
+    <div class='skills'>
+        <h2 class='skills-label'>Skills</h2>
+        <div class='labels'>
+            <div class='vertical-label'>Expert</div>
+                <div class='skills-line'></div>
+            <div class='vertical-label'>Advanced</div>
+                <div class='skills-line'></div>
+            <div class='vertical-label'>Proficient</div>
+                <div class='skills-line'></div>
+        </div>
+        <div class='bar-chart'>
+        </div>
+    </div>
+    <div class='employment'>
+        <h2 class='employment-label'>Employment</h2>
+
+        
+    </div>
+    <div class='testimonials-education'>
+        <div class='testimonials'>
+            <h2 class='employment-label'>Testimonials</h2>
+        </div>
+        <div class='education'>
+            <h2 class='employment-label'>Education</h2>
+        </div>
+    </div>
+
+</div>
+
+</body>
+<script>
+    var data;
+
+    function getPdf () {
+        var doc = new jsPDF();
+        doc.text(20, 20, 'Hello world.');
+        doc.save('Test.pdf');
+    }
+
+    function renderData() {
+        document.getElementsByClassName('name')[0].innerHTML = data.name;
+        document.getElementsByClassName('email')[0].innerHTML = data.email;
+        document.getElementsByClassName('phone')[0].innerHTML = data.phone;
+        document.getElementsByClassName('location')[0].innerHTML = data.location;
+    }
+
+    function loadData() {
+        //dynamically loads the data from a JSON
+        var xhttp;
+        xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (xhttp.readyState == 4 && xhttp.status == 200) {
+                data = JSON.parse(xhttp.responseText);
+                renderData();
+            }
+        }
+        xhttp.open("GET", "data.json", true);
+        xhttp.send();
+    }
+
+
+</script>
+
+        <!-- <script src="https://cdn.jsdelivr.net/ace/1.1.01/noconflict/ace.js" type="text/javascript" charset="utf-8"></script> -->
+
+        <!-- Scripts in development mode -->
+        <!-- <script type="text/javascript" src="dist/jspdf.min.js"></script> -->
+</html>

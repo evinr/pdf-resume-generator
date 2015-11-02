@@ -1,150 +1,171 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Web Site to 8.5 by 11 PDF</title>
-
-<style>
-body {
-    background-color: darkslategray;
-}
-.content {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-    height: 11in;
-    width: 8.5in;
-    background-color:white;
-}  
-
-.conent:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.name, .testimonials{
-    width: 66%;
-    margin: 0;
-    float: left;
-}
-
-.contact, .education{
-    width:33%;
-    float: left;
-}
-
-.name-contact {
-    height:10%;
-}
-
-.skills {
-    height:30%;
-}
-
-.employment {
-    height:45%;
-}
-.testimonials-education {
-    height: 15%;
-}
-
-.vertical-label {
-    transform: rotate(-45deg);
-    width:5%;
-    margin-bottom: 5%;
-}
-
-.skills-line {
-    border: 1px dashed darkslategrey;
-    width:95%;
-    float:right;
-    margin-top:-50px;
-}
-
-</style>
+<title>Web-based Resume to 8.5 by 11 Printable PDF</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 <body>
-<form id="form">
-    <h1>Click the button for your PDF</h1>
-    <button type="button" onclick="loadData()">Get Your PDF</button>
-</form>
+    <form id="form">
+        <h1>Click the button for your PDF</h1>
+        <button type="button" onclick="loadData()">Load Personalized Data</button>
+        <button type="button" onclick="getPdf()">Get Your PDF</button>
+    </form>
 
-<div class='content'>
-    <div class='name-contact'>   
-        <h1 class='name'>Your Name</h1>
-        <div class='contact'>
-            <p class='email'>email@example.com</p>
-            <p class='phone'>email@example.com</p>
-            <p class='location'>email@example.com</p>
+    <div class='content'>
+        <div class='name-contact'>   
+            <div class='name'>Your Name</div>
+            <div class='contact'>
+                <p class='email'>email@example.com</p>
+                <p class='phone'>415 867 5309</p>
+                <p class='location'>Bay Area, CA</p>
+            </div>
         </div>
-    </div>
-    <div class='skills'>
-        <h2 class='skills-label'>Skills</h2>
-        <div class='labels'>
-            <div class='vertical-label'>Expert</div>
-                <div class='skills-line'></div>
-            <div class='vertical-label'>Advanced</div>
-                <div class='skills-line'></div>
-            <div class='vertical-label'>Proficient</div>
-                <div class='skills-line'></div>
-        </div>
-        <div class='bar-chart'>
-        </div>
-    </div>
-    <div class='employment'>
-        <h2 class='employment-label'>Employment</h2>
 
-        
-    </div>
-    <div class='testimonials-education'>
-        <div class='testimonials'>
-            <h2 class='employment-label'>Testimonials</h2>
+        <div class='skills'>
+            <div class='skills-label label'><p>Skills</p></div>
+            <div class='labels'>
+                <div class='vertical-label'>Expert</div>
+                    <div class='skills-line'></div>
+                <div class='vertical-label'>Advanced</div>
+                    <div class='skills-line'></div>
+                <div class='vertical-label'>Proficient</div>
+                    <div class='skills-line'></div>
+            </div>
+            <div class='bar-chart'>
+            </div>
         </div>
-        <div class='education'>
-            <h2 class='employment-label'>Education</h2>
-        </div>
-    </div>
 
-</div>
+        <div class='employment'>
+            <div class='employment-label label'>Employment</div>
+            <div class='jobs'> 
+
+                <div class='job'>
+                    <div class='job-title-1'>
+                        Job Title
+                    </div>
+                    <div class='job-logo-1'>
+                        <p>Company Name</p>
+                    </div>
+                    <div class='job-start-end-1'>
+                        2015 to Present
+                    </div>
+                    <div class='description-job-1'>
+                        Praesent dignissim dignissim tellus sed ultrices. Nunc rhoncus consequat congue. Donec tempor augue nec dictum placerat. Vestibulum vitae est neque. Mauris consectetur ut tellus ut semper. Nullam id interdum orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eget maximus nisl. Aliquam quis turpis fringilla, porta ligula id, ornare ante. Nullam molestie nibh eros, in ornare nibh facilisis ac.
+                    </div>
+                </div>
+
+                <div class='job'>
+                    <div class='job-title-2'>
+                        Job Title
+                    </div>
+                    <div class='job-logo-2'>
+                        <p>Company Name</p>
+                    </div>
+                    <div class='job-start-end-2'>
+                        2014 to 2015
+                    </div>
+                    <div class='description-job-2'>
+                        Praesent dignissim dignissim tellus sed ultrices. Nunc rhoncus consequat congue. Donec tempor augue nec dictum placerat. Vestibulum vitae est neque. Mauris consectetur ut tellus ut semper. Nullam id interdum orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eget maximus nisl. Aliquam quis turpis fringilla, porta ligula id, ornare ante. Nullam molestie nibh eros, in ornare nibh facilisis ac.
+                    </div>
+                </div>
+
+                <div class='job'>
+                    <div class='job-title-3'>
+                        Job Title
+                    </div>
+                    <div class='job-logo-3'>
+                        <p>Company Name</p>
+                    </div>
+                    <div class='job-start-end-3'>
+                        2013 to 2014
+                    </div>
+                    <div class='description-job-3'>
+                        Praesent dignissim dignissim tellus sed ultrices. Nunc rhoncus consequat congue. Donec tempor augue nec dictum placerat. Vestibulum vitae est neque. Mauris consectetur ut tellus ut semper. Nullam id interdum orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eget maximus nisl. Aliquam quis turpis fringilla, porta ligula id, ornare ante. Nullam molestie nibh eros, in ornare nibh facilisis ac.
+                    </div>
+                </div>
+
+                <div class='job'>
+                    <div class='job-title-4'>
+                        Job Title
+                    </div>
+                    <div class='job-logo-4'>
+                        <p>Company Name</p>
+                    </div>
+                    <div class='job-start-end-4'>
+                        2011 to 2013
+                    </div>
+                    <div class='description-job-4'>
+                        Praesent dignissim dignissim tellus sed ultrices. Nunc rhoncus consequat congue. Donec tempor augue nec dictum placerat. Vestibulum vitae est neque. Mauris consectetur ut tellus ut semper. Nullam id interdum orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eget maximus nisl. Aliquam quis turpis fringilla, porta ligula id, ornare ante. Nullam molestie nibh eros, in ornare nibh facilisis ac.
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <div class='testimonials-education'>
+
+            <div class='testimonials'>
+                <div class='employment-label label'>Testimonials</div>
+                <div class='testimonial'>
+                    <div class='testimonial-description-1'>
+                        Vestibulum vitae est neque. Mauris consectetur ut tellus ut semper. Nullam id interdum orci. 
+                    </div>
+                    <div class='testimonial-name-1'>
+                        -Name McNamerson
+                    </div>
+                    <div class='testimonial-relation-1'>
+                        Someone
+                    </div>
+                </div>
+                <div class='testimonial'>
+                    <div class='testimonial-description-2'>
+                        Vestibulum vitae est neque. Mauris consectetur ut tellus ut semper. Nullam id interdum orci. 
+                    </div>
+                    <div class='testimonial-name-2'>
+                        -Name McNamerson
+                    </div>
+                    <div class='testimonial-relation-2'>
+                        Someone
+                    </div>
+
+                </div>
+                <div class='testimonial'>
+                     <div class='testimonial-description-3'>
+                        Vestibulum vitae est neque. Mauris consectetur ut tellus ut semper. Nullam id interdum orci. 
+                    </div>
+                    <div class='testimonial-name-3'>
+                        -Name McNamerson
+                    </div>
+                    <div class='testimonial-relation-3'>
+                        Someone
+                    </div>
+                </div>
+            </div>
+
+            <div class='education'>
+                <div class='employment-label label'>Education</div>
+                <div class='school'>
+                    <div class='school-name'>
+                        School Name
+                    </div>
+                    <div class='school-degree'>
+                        <div class='field'>
+                            Area of Study
+                        </div>
+                        <div class='year'>
+                            2015
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
-<script>
-    var data;
 
-    function getPdf () {
-        var doc = new jsPDF();
-        doc.text(20, 20, 'Hello world.');
-        doc.save('Test.pdf');
-    }
-
-    function renderData() {
-        document.getElementsByClassName('name')[0].innerHTML = data.name;
-        document.getElementsByClassName('email')[0].innerHTML = data.email;
-        document.getElementsByClassName('phone')[0].innerHTML = data.phone;
-        document.getElementsByClassName('location')[0].innerHTML = data.location;
-    }
-
-    function loadData() {
-        //dynamically loads the data from a JSON
-        var xhttp;
-        xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-            if (xhttp.readyState == 4 && xhttp.status == 200) {
-                data = JSON.parse(xhttp.responseText);
-                renderData();
-            }
-        }
-        xhttp.open("GET", "data.json", true);
-        xhttp.send();
-    }
-
-
-</script>
-
-        <!-- <script src="https://cdn.jsdelivr.net/ace/1.1.01/noconflict/ace.js" type="text/javascript" charset="utf-8"></script> -->
-
-        <!-- Scripts in development mode -->
-        <!-- <script type="text/javascript" src="dist/jspdf.min.js"></script> -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600|Open+Sans+Condensed:300|Poiret+One|PT+Serif|Abel|Quicksand:400,700,300|Josefin+Slab|EB+Garamond|Julius+Sans+One' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="assets/js/app.js"></script>
 </html>

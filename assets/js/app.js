@@ -15,22 +15,22 @@ function renderData() {
 
     document.getElementsByClassName('job-title-1')[0].innerHTML = data.jobs[0].position;  
     document.getElementsByClassName('job-logo-1')[0].innerHTML = data.jobs[0].company;  
-    document.getElementsByClassName('job-start-end-1')[0].innerHTML = data.jobs[0].start + " to " + data.jobs[0].end;    
+    document.getElementsByClassName('job-start-end-1')[0].innerHTML = data.jobs[0].start.substring(0, 4) + " to " + data.jobs[0].end;  //Needs logic to handle Present case  
     document.getElementsByClassName('description-job-1')[0].innerHTML = data.jobs[0].description; 
 
     document.getElementsByClassName('job-title-2')[0].innerHTML = data.jobs[1].position;  
     document.getElementsByClassName('job-logo-2')[0].innerHTML = data.jobs[1].company;  
-    document.getElementsByClassName('job-start-end-2')[0].innerHTML = data.jobs[1].start + " to " + data.jobs[1].end;    
+    document.getElementsByClassName('job-start-end-2')[0].innerHTML = data.jobs[1].start.substring(0, 4) + " to " + data.jobs[1].end.substring(0, 4);    
     document.getElementsByClassName('description-job-2')[0].innerHTML = data.jobs[1].description; 
 
     document.getElementsByClassName('job-title-3')[0].innerHTML = data.jobs[2].position;  
     document.getElementsByClassName('job-logo-3')[0].innerHTML = data.jobs[2].company;  
-    document.getElementsByClassName('job-start-end-3')[0].innerHTML = data.jobs[2].start + " to " + data.jobs[2].end;    
+    document.getElementsByClassName('job-start-end-3')[0].innerHTML = data.jobs[2].start.substring(0, 4) + " to " + data.jobs[2].end.substring(0, 4);    
     document.getElementsByClassName('description-job-3')[0].innerHTML = data.jobs[2].description; 
 
     document.getElementsByClassName('job-title-4')[0].innerHTML = data.jobs[3].position;  
     document.getElementsByClassName('job-logo-4')[0].innerHTML = data.jobs[3].company;  
-    document.getElementsByClassName('job-start-end-4')[0].innerHTML = data.jobs[3].start + " to " + data.jobs[3].end;    
+    document.getElementsByClassName('job-start-end-4')[0].innerHTML = data.jobs[3].start.substring(0, 4) + " to " + data.jobs[3].end.substring(0, 4);    
     document.getElementsByClassName('description-job-4')[0].innerHTML = data.jobs[3].description; 
 
 

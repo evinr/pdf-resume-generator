@@ -196,11 +196,13 @@
 			"degrees":[
 				{
 					"name": "Computer Science",
+					"type": "AA",
 					"accomplishments": "describe what was learned through getting this briefly",
 					"date":	"2011"
 				},
 				{
 					"name": "Mechatronics",
+					"type": "AA",
 					"accomplishments": "describe what was learned through getting this briefly",
 					"date":	"2011"
 				}
@@ -212,17 +214,17 @@
 		{
 			"name": 		"Nathan Fry",
 			"relation": 	"Engineering Peer",
-			"quote":		"loris ipsum"
+			"quote":		"Although extremely technically minded Evin has the ability to communicate with simple, friendly language with a great sense of humor."
 		},
 		{
 			"name": 		"Vadym Maly",
 			"relation": 	"Coworker",
-			"quote":		"loris ipsum"
+			"quote":		"Evin is people-oriented and fluent when it comes to technology. She is great at creating enthusiasm in others."
 		},
 		{
 			"name": 		"Guy McGuyerson",
 			"relation": 	"Former Boss",
-			"quote":		"loris ipsum"
+			"quote":		"Senior Airman Revello’s positive and out-going attitude immediately impressed me and the entire training staff."
 		}
 	]
 }

@@ -94,10 +94,6 @@ body {
 */
 }
 
-[class^='job-start-end-'] {
-    float: right;
-    margin-top: -42px;
-}
 
 .testimonial {
     margin: 0;
@@ -116,21 +112,46 @@ body {
     width: 90%;
 }
 
-[class^='job-logo-'] {
-    text-align: center;
-      margin-top: -44px;
-}
+
 
 [class^='job-'] {
     font-size: 20px;
     font-family: 'Quicksand', sans-serif;
+}
+
+.job-header {
+    text-align: center;
+    width:100%;
+    margin-bottom: 5px;
+}
+
+[class^='job-title'] {
+    float: left;
+}
+
+[class^='job-logo-'] {
+    /*display:inline-block;*/
+    width:33%;
+    background-color: pink;
+    margin:0 auto;
+    /*background-image: url('../logos/batman.png');*/
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 
 }
+
+[class^='job-start-end-'] {
+    float: right;
+    margin-top: -25px;
+}
+
 
 [class^='description-'] {
     font-size: 12px;
     font-family: 'PT Serif', serif;
-    margin-top: -10px;
+    /*margin-top: -10px;*/
+    width:100%;
 }
 
 [class^='testimonial-name-'] {
@@ -150,3 +171,4 @@ body {
     float: right;
     margin-top: -10px;
 }
+

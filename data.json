@@ -153,16 +153,16 @@
 	"jobs":[
 		{
 			"company": 	"Stone Cobra",
-			"logo":		"./assets/logos/sample.png",
+			"logo":		null,
 			"url":		"http://www.stonecobra.com/",
 			"position": 	"Engineer",
 			"start":		"2015-03-26",
-			"end":		"Present",
+			"end":		null,
 			"description":"JavaScript Ninja using the weapons of HTML/CSS/JS to slice through the presentation tier for high traffic, consumer facing applications while thinking about site speed, user experience, product strategy, and improvements to the code. Battling large JavaScript applications with deep knowledge of casting browser assets spells to vanquish slow site speeds, AJAX bottlenecks, and sloppy stylings. Vigilant about the latest design and development trends from tablet, mobile, HTML5, CSS3, JavaScript evolution, responsive design, accessibility, site performance, progressive enhancement, semantic markup and cross-browser development."
 		},
 		{
 			"company": 	"ECaTS",
-			"logo":		"./assets/logos/sample.png",
+			"logo":		"/assets/logos/batman.png",
 			"url":		"http://www.ecats911.com/",
 			"position": 	"Jr Developer/Designer",
 			"start":		"2013-09-07",
@@ -171,7 +171,7 @@
 		},
 		{
 			"company": 	"Mesotech International",
-			"logo":		"./assets/logos/sample.png",
+			"logo":		"./assets/logos/batman.png",
 			"url":		"http://mesotech.com/",
 			"position": 	"Technical Writer",
 			"start":		"2012-10-22",
@@ -180,7 +180,7 @@
 		},
 		{
 			"company": 	"Self Employed",
-			"logo":		"./assets/logos/sample.png",
+			"logo":		"./assets/logos/batman.png",
 			"url":		"http://evinrevello.com/",
 			"position": 	"Freelancer",
 			"start":		"2009-06-15",
@@ -191,7 +191,7 @@
 	"education":[
 		{
 			"school": "Sierra College",
-			"logo":	"./assets/logos/sample.png",
+			"logo":	"/assets/logos/batman.png",
 			"url":	"http://www.sierracollege.edu/",
 			"degrees":[
 				{

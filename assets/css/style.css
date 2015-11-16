@@ -17,6 +17,11 @@ body {
   clear: both;
 }
 
+
+
+
+
+
 .name {
     font-family: 'Open Sans', sans-serif;
     font-size: 90px;
@@ -27,16 +32,6 @@ body {
     width: 66%;
     margin: 0;
     float: left;
-}
-
-.contact, .education{
-    width:34%;
-    float: left;
-}
-
-.contact {
-    line-height: 35%;
-    font-size: 23px;
 }
 
 .name-contact {
@@ -50,12 +45,26 @@ body {
 }
 
 .employment {
-    height:50%;
+    height:45%;
 }
 
 .testimonials-education {
-    height: 13%;
+    height: 16%;
 }
+
+
+.contact, .education{
+    width:34%;
+    float: left;
+}
+
+.contact {
+    line-height: 35%;
+    font-size: 23px;
+}
+
+
+    /*SKILLS*/
 
 .vertical-label {
     transform: rotate(-45deg);
@@ -75,24 +84,78 @@ body {
     font-size: 12px;
     font-family: 'PT Serif', serif;
 }
+
+
+.label {
+    font-size:23px;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.7;
+}
+
+.employment .label {
+    margin-bottom: -30px;
+}
+
+
+
+
+        
+        /*JOBS*/
 .jobs {
     height:100%;
 }
 .job {
     width: 100%;
     height: 20%;
-/*    background-color:grey;
-    opacity: 0.5;*/
-    margin-top: 2%;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
 
-.label {
-    font-size:23px;
-    font-family: 'Open Sans', sans-serif;
-    opacity: 0.7;
-/*    font-weight:300;
-*/
+[class^='job-'] {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
+
+.job-header {
+    text-align: center;
+    width:100%;
+    height: 50px;
+}
+
+.job-title {
+    float: left;
+    margin-top: 25px;
+}
+
+.job-logo {
+    background-size: auto 140%;
+    background-repeat: no-repeat;
+    background-position: center 32%;;
+    
+}
+
+.job-center {
+    text-align: center;
+    margin-top: -25px;
+    margin:0 auto;
+    width:33%;
+    height: 100%;
+    line-height: 76px;
+}
+
+.job-start-end {
+    float: right;
+    margin-top: -25px;
+}
+
+.job-description {
+    font-size: 12px;
+    font-family: 'PT Serif', serif;
+    width:100%;
+}
+
+
 
 
 .testimonial {
@@ -105,70 +168,39 @@ body {
     margin-right: 3%;
 }
 
+.testimonial-description {
+    letter-spacing: -0.5px;
+}
+
+
+.testimonial-contact {
+    float: right;
+    font-size: 14px;
+    font-family: 'PT Serif', serif;
+}
+
+.testimonial-name {
+ 
+}
+
+.testimonial-relation {
+    
+}
+
+
+
 .school {
     background-color: green;
     opacity: 0.5;
     height: 70%;
-    width: 90%;
+    width: 100%;
 }
 
-
-
-[class^='job-'] {
-    font-size: 20px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.job-header {
-    text-align: center;
-    width:100%;
-    margin-bottom: 5px;
-}
-
-[class^='job-title'] {
-    float: left;
-}
-
-[class^='job-logo-'] {
-    /*display:inline-block;*/
-    width:33%;
-    background-color: pink;
-    margin:0 auto;
-    /*background-image: url('../logos/batman.png');*/
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-
-}
-
-[class^='job-start-end-'] {
-    float: right;
-    margin-top: -25px;
-}
-
-
-[class^='description-'] {
-    font-size: 12px;
-    font-family: 'PT Serif', serif;
-    /*margin-top: -10px;*/
-    width:100%;
-}
-
-[class^='testimonial-name-'] {
-    font-size: 14px;
-    font-family: 'PT Serif', serif;
-    float: right;
-}
-
-[class^='testimonial-relation-'] {
-    font-size: 14px;
-    font-family: 'PT Serif', serif;
-    float: right;
-    margin-top: -4px;
+.school-name, .school-degree {
+    font-size: 18px
 }
 
 .year {
     float: right;
-    margin-top: -10px;
+    margin-top: -23px;
 }
-
